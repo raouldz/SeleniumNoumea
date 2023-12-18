@@ -7,7 +7,7 @@ import test.java.base.BaseTests;
 
 import static org.testng.Assert.assertTrue;
 
-public class LoginTestes extends BaseTests {
+public class LoginTests extends BaseTests {
     @Test
     public void testSuccessfulLogin(){
         LoginPage loginPage = homePage.clickFormAuthentificationLink();
